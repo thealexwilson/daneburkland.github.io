@@ -352,3 +352,20 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+.social {
+  display: flex;
+}
+
+.social-item {
+  color: white;
+  margin-right: 15px;
+}
+
+.footer {
+  address {
+    color: #BBBBBB;
+  }
+  color: white;
+  background-color: #1A1A1A;
+}
