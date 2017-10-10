@@ -366,6 +366,14 @@ body {
   address {
     color: #BBBBBB;
   }
+  .map {
+    @media (min-width: 768px) {
+      text-align: right;
+    }
+    @media (max-width: 768px) {
+      margin-top: 40px;
+    }
+  }
   color: white;
   background-color: #1A1A1A;
 }
