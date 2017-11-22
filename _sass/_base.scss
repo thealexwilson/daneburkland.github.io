@@ -84,6 +84,14 @@ aside {
             color: darken($theme-primary, 10%);
         }
     }
+    @media (max-width: 888px) {
+      .social-item {
+        display: none;
+      }
+    }
+    &.affix .social-item {
+      color: #137EC2;
+    }
     .nav {
         > li {
             > a,
@@ -209,6 +217,8 @@ header {
     }
 }
 
+
+
 // Sections
 
 .section-heading {
@@ -286,6 +296,14 @@ header {
 
 .u-posRelative {
   position: relative;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flexAlignItemsBaseline {
+  align-items: baseline;
 }
 
 .wod {
@@ -388,6 +406,14 @@ body {
   padding-top: 100px;
   background: #404040;
   color: white;
+}
+
+.about-us-header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url('../img/about-us.jpg');
 }
 
 .pricing {
