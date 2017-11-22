@@ -282,6 +282,12 @@ header {
     }
 }
 
+/* Utilities */
+
+.u-posRelative {
+  position: relative;
+}
+
 .wod {
     h2 {
         margin: 0 auto 20px;
@@ -400,4 +406,26 @@ body {
   padding-top: 100px;
   background: #404040;
   color: white;
+}
+
+.black-friday-cta {
+  margin-top: 48px;
+  font-size: 24px;
+  color: white;
+  &:hover {
+    color: #1E7FC0;
+  }
+}
+
+.notification {
+  position: absolute;
+  background: #137EC2;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.notification--large {
+  width: 15px;
+  height: 15px;
 }
