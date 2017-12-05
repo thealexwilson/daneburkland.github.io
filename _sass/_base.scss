@@ -298,6 +298,14 @@ header {
   position: relative;
 }
 
+.u-textAlignLeft {
+  text-align: left;
+}
+
+.u-marginLeftRight0pt5 {
+  margin: 0 5px;
+}
+
 .u-flex {
   display: flex;
 }
@@ -408,7 +416,7 @@ body {
   color: white;
 }
 
-.about-us-header {
+.about-us-header, .services {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)
@@ -454,4 +462,27 @@ body {
 .notification--large {
   width: 15px;
   height: 15px;
+}
+
+// Services
+
+.services hr {
+  width: 50px;
+}
+
+.services-label {
+  color: white;
+}
+
+.services-group {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-description {
+  max-width: 400px;
 }
